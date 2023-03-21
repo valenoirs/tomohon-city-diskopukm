@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  min-height: 100%;
+
+  letter-spacing: 0.5px;
+}
+
+.form-control:focus {
+  border-color: #198754;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #212529;
+}
+
+/* header {
+  width: 100%;
+  position: relative;
+}
+
+.sticky-navbar {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
+
+.hide {
+  opacity: 0;
+  left: -100%;
+}
+.show {
+  opacity: 1;
+  left: 0;
+} */

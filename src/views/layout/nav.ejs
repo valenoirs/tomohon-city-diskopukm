@@ -1,0 +1,292 @@
+<nav id="nav" class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid" data-aos="fade-down" data-aos-duration="750">
+    <a class="navbar-brand p-3 mt-2" href="/"
+      ><h5>
+        <img src="./assets/logo-kota-tomohon.png" alt="" width="42px" />
+        <span
+          class="fw-lights text-dark"
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+          >DISKOPUKM</span
+        >
+      </h5></a
+    >
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bi bi-people-fill"></i> Struktur Organisasi
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item text-secondary" <% if (locals.admin) { %>
+                href="/struktur-organisasi/kepala-dinas" <% } %>
+                href="/struktur-organisasi/kepala-dinas" ><i
+                  class="bi bi-dot"
+                ></i>
+                Kepala Dinas</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a
+                class="dropdown-item text-secondary"
+                href="/struktur-organisasi/sekretaris-dinas"
+                ><i class="bi bi-dot"></i> Sekretaris Dinas</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a
+                class="dropdown-item text-secondary"
+                href="/struktur-organisasi/kepala-bidang"
+                ><i class="bi bi-dot"></i> Kepala Bidang</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a
+                class="dropdown-item text-secondary"
+                href="/struktur-organisasi/kepala-bidang"
+                ><i class="bi bi-dot"></i> UPTD</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bi bi-file-earmark-ruled-fill"></i> Halaman
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/info"
+                ><i class="bi bi-dot"></i> Info</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/visi-misi"
+                ><i class="bi bi-dot"></i> Visi-Misi</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/pelayanan"
+                ><i class="bi bi-dot"></i> Pelayanan</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/pengaturan"
+                ><i class="bi bi-dot"></i> Pengaturan</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/ppid"
+                ><i class="bi bi-dot"></i> PPID</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bi bi-buildings-fill"></i> Profil
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/dinas"
+                ><i class="bi bi-dot"></i> Dinas</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/balatkop"
+                ><i class="bi bi-dot"></i> BALATKOP</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/plut"
+                ><i class="bi bi-dot"></i> PLUT</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="bi bi-diagram-3-fill"></i> Produk UMKM
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/pangan"
+                ><i class="bi bi-dot"></i> Pangan</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/kerajinan"
+                ><i class="bi bi-dot"></i> Kerajinan</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a
+                class="dropdown-item text-secondary"
+                href="/halaman/pertanian-perikanan"
+                ><i class="bi bi-dot"></i> Pertanian & Perikanan</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/jasa"
+                ><i class="bi bi-dot"></i> Jasa</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item text-secondary" href="/halaman/lain-lain"
+                ><i class="bi bi-dot"></i> Lain-Lain</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <% if (locals.user) { %>
+        <div class="dropdown align-self-center">
+          <a
+            class="text-success me-4"
+            href="#"
+            id="navbarDarkDropdownMenuLink"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            data-bs-auto-close="outside"
+            style="text-decoration: none"
+            ><i class="bi bi-person-circle"></i> <%= locals.user.name %></a
+          >
+          <div
+            class="dropdown-menu dropdown-menu-lg-end p-4"
+            style="width: 200px"
+          >
+            <p>
+              <%= locals.user.name %>
+              <br />
+              <span class="text-secondary" style="font-size: 0.9rem">
+                <%= locals.user.email %>
+              </span>
+            </p>
+            <hr />
+            <a
+              class="text-success me-4"
+              href="/password"
+              style="text-decoration: none"
+            >
+              <i class="bi bi-pencil-square"></i> Edit Password</a
+            >
+            <br />
+            <a
+              class="text-danger me-4"
+              href="/user/signout"
+              style="text-decoration: none"
+            >
+              <i class="bi bi-box-arrow-left"></i> Sign Out</a
+            >
+          </div>
+        </div>
+        <% } else if (locals.admin) { %>
+        <div class="dropdown align-self-center">
+          <a
+            class="text-success me-4"
+            href="#"
+            id="navbarDarkDropdownMenuLink"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            data-bs-auto-close="outside"
+            style="text-decoration: none"
+            ><i class="bi bi-person-circle"></i> <%= locals.admin.name %></a
+          >
+          <div
+            class="dropdown-menu dropdown-menu-lg-end p-4"
+            style="width: 200px"
+          >
+            <p>
+              <%= locals.admin.name %>
+              <br />
+              <span class="text-secondary" style="font-size: 0.9rem">
+                <%= locals.admin.email %>
+              </span>
+            </p>
+            <hr />
+            <a
+              class="text-success me-4"
+              href="/admin/password"
+              style="text-decoration: none"
+            >
+              <i class="bi bi-pencil-square"></i> Edit Password</a
+            >
+            <br />
+            <a
+              class="text-danger me-4"
+              href="/admin/signout"
+              style="text-decoration: none"
+            >
+              <i class="bi bi-box-arrow-left"></i> Sign Out</a
+            >
+          </div>
+        </div>
+
+        <% } else { %>
+        <div class="dropdown align-self-center">
+          <a
+            class="text-success me-4"
+            href="/masuk"
+            style="text-decoration: none"
+            ><i class="bi bi-person-circle"></i> Masuk</a
+          >
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</nav>
